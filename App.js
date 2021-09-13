@@ -1,12 +1,16 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, ActivityIndicator, ProgressViewIOS, Button } from 'react-native';
 
 export default function App() {
+  const onButtonPress = () => {
+    console.log(`${new Date().toLocaleTimeString()} button press`)
+  };
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+    <View style={{padding: 50}}>
+      <Text>ready...</Text>
+      <ProgressViewIOS progress={0.8}/>
+      <ActivityIndicator size="large" color="#61DBFB"/>
+      <Button title="click me" onPress={onButtonPress}/>
     </View>
   );
 }
