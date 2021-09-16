@@ -9,3 +9,4 @@ Learning React Native by making a color catalog!
 | Flexbox StyleSheet | <img src='snapshots/pic02.png' width='300' /> |
 | Image Styling | <img src='snapshots/pic03.png' width='300' /> |
 | Color Buttons & Swatches | <img src='snapshots/pic04.png' width='300' /> |
+| Color Form | <img src='snapshots/pic05.png' width='300' /> |
